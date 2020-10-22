@@ -9,7 +9,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/icon_distance"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -42,17 +42,17 @@
         android:hint="@string/add_run_distance_hint"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/icon_distance"
         app:layout_constraintTop_toTopOf="parent" />
 
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/icon_time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="59dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView2"
-        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="@+id/icon_distance"
+        app:layout_constraintStart_toStartOf="@+id/icon_distance"
         app:layout_constraintTop_toBottomOf="@+id/addRunDistanceInput"
         app:srcCompat="@drawable/ic_time_icon" />
 
@@ -65,9 +65,9 @@
         android:layout_marginLeft="24dp"
         android:text="@string/add_run_time_label"
         android:textColor="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/imageView3"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+        app:layout_constraintBottom_toTopOf="@+id/icon_time"
+        app:layout_constraintStart_toEndOf="@+id/icon_time"
+        app:layout_constraintTop_toTopOf="@+id/icon_time" />
 
     <TextView
         android:id="@+id/addRunTimeLabel"
@@ -92,6 +92,6 @@
         android:layout_marginRight="82dp"
         android:text="@string/add_run_save"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/icon_time"
         app:layout_constraintTop_toBottomOf="@+id/addRunTimeLabel" />
 </androidx.constraintlayout.widget.ConstraintLayout>
