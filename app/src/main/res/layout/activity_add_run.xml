@@ -19,12 +19,12 @@
         android:layout_marginRight="24dp"
         app:layout_constraintEnd_toStartOf="@+id/addRunDistanceInput"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/distance_textview"
         app:srcCompat="@drawable/ic_distance_icon" />
 
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/distance_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -58,7 +58,7 @@
 
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/time_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -76,8 +76,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:hint="@string/add_run_time_hint"
-        app:layout_constraintStart_toStartOf="@+id/textView4"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintStart_toStartOf="@+id/time_textview"
+        app:layout_constraintTop_toBottomOf="@+id/time_textview" />
 
 
     <Button
